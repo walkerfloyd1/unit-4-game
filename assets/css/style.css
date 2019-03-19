@@ -1,0 +1,27 @@
+#head {
+    background: burlywood;
+    width: fit-content;
+}
+#headFont {
+    color: white;
+}
+.jumbotron {
+    background: burlywood;
+    width: fit-content;
+    font-size: 12px;
+    height: 300px;
+}
+body {
+    background: lightblue;
+}
+p {
+    line-height: 2;
+    margin-top: 10px;
+    color: green;
+    font-weight: bold;
+}
+
+.gembuttons {
+    height: 50px;
+    width: 100px;
+}

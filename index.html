@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Crystal Collector
+    </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header id="head">
+            <h1 id="headFont">
+                Crystals Collector!
+            </h1>
+        </header>
+        <div class="row">
+            <div class="jumbotron">
+                <div class="row">
+                    <p>You will be given a random number at the start of the game.</p>
+                </div>
+                <div class="row">
+                    <p>
+                        There are four crystals below. By clicking on a crystal you will add a specific amount of
+                        points to your total score.
+                    </p>
+                </div>
+                <div class="row">
+                        score goes above the random number.</p>
+                </div>
+                <div class="row">
+                    <p>
+                        The value of each crystal is hidden from you until you click on it.
+                    </p>
+                </div>
+                <div class="row">
+                    <p>
+                        Each time when the game starts, the game will change the values of each crystal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron" id="randomNumberJumbo">
+                 <h2>Computer Number: <span id="idealNumber"></span></h2>
+            </div>
+            <div class="col-md-4">
+                <p> Wins: <span id="winNumber"></span></p>
+                <p> Losses: <span id="lossNumber"></span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="gems">
+                <img src="assets/images/2-Star_Crystal.jpg" class="gembuttons" id="jewel1">
+                <img src="assets/images/blue-crystal.jpg" class="gembuttons" id="jewel2">
+                <img src="assets/images/coolcrystal.jpg" class="gembuttons" id="jewel3">
+                <img src="assets/images/othercrystal.jpg" class="gembuttons" id="jewel4">
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <h2>Your total score is:<span id="score"></span> </h2>
+        </div>
+        <div class="row" id="totalScore">
+
+        </div>
+
+    </div>
+</body>
